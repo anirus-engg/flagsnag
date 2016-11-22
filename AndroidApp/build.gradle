@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'flagsnag_keystore'
+            keyPassword 'metchem2013'
+            storeFile file('../keystore/flagsnag.keystore')
+            storePassword 'metchem2013'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion "25"
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 6
+        versionName "5.0"
+        applicationId "com.udaan.flagsnag.ui"
+        signingConfig signingConfigs.config
+    }
+    dependencies {
+        compile 'com.android.support:appcompat-v7:25.0.1'
+        compile 'com.facebook.android:facebook-android-sdk:3.23.1'
+        compile 'com.google.firebase:firebase-ads:9.0.2'
+        compile files('libs/javacsv.jar')
+    }
+    productFlavors {
+    }
+}
+
+apply plugin: 'com.google.gms.google-services'

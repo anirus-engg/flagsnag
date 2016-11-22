@@ -1,0 +1,13 @@
+"Id","Name","Description","Medal","Achieved"
+1,"World Flag  Novice","Achieved when answered 15 World Flags in a row","bronze",0
+2,"World Flag Competent","Achieved when answered 45 World Flags in a row","silver",0
+3,"World Flag Proficient","Achieved when answered 75 World Flags in a row","silver",0
+4,"Wold Flag Expert","Achieved when answered 105 World Flags in a row","gold",0
+5,"US Flag Novice","Achieved when answered 5 US Flags in a row","bronze",0
+6,"US Flag Competent","Achieved when answered 15 US Flags in a row","silver",0
+7,"US Flag Proficient","Achieved when answered 25 US Flags in a row","silver",0
+8,"US Flag Expert","Achieved when answered 35 US Flags in a row","gold",0
+9,"UK Flag Novice","Achieved when answered 5 UK Flags in a row","bronze",0
+10,"UK Flag Competent","Achieved when answered 15 UK Flags in a row","silver",0
+11,"UK Flag Proficient","Achieved when answered 25 UK Flags in a row","silver",0
+12,"UK Flag Expert","Achieved when answered 35 UK Flags in a row","gold",0

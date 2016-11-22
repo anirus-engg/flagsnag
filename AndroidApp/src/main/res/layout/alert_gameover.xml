@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+	<TextView 
+		android:id="@+id/facebook_tv"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/facebook_post"
+	    android:drawableLeft="@drawable/facebook"
+	    android:onClick="connectFacebook"
+	    android:gravity="center"
+	    android:textSize="15sp"
+	    android:layout_marginLeft="15dp"
+	    android:clickable="true"/>
+	<ImageView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:src="@drawable/game_over"
+	    android:contentDescription="@string/times_up" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/help_layout"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:scrollbars="vertical"
+    android:isScrollContainer="true"
+    android:background="#FFFFFF">
+    <TextView 
+        android:id="@+id/help_version"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textIsSelectable="false"
+        android:textColor="#000000"
+        android:gravity="left" />
+    <WebView 
+        android:id="@+id/help_web_view"
+        android:layout_height="fill_parent"
+	    android:layout_width="match_parent"
+	    android:layout_below="@id/help_version" />
+</RelativeLayout>

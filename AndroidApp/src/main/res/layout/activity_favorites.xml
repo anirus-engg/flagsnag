@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/help_layout"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:scrollbars="vertical"
+    android:isScrollContainer="true"
+    android:background="#000000">
+    <LinearLayout
+        android:id="@+id/achievements"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:onClick="achievementsClicked"
+        android:orientation="vertical">
+        <TextView
+	        android:layout_height="match_parent"
+	        android:layout_width="wrap_content"
+	        android:text="@string/achievements"
+	        android:textSize="23sp"
+	        android:textColor="#FFFFFF" />
+        <TextView
+	        android:layout_height="match_parent"
+	        android:layout_width="wrap_content"
+	        android:text="@string/achievements_text"
+	        android:textColor="#FFFFFF" />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/achievements"
+        android:background="#FFFFFF" />
+    <LinearLayout
+        android:id="@+id/help"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/achievements"
+        android:onClick="helpClicked"
+        android:orientation="vertical">
+        <TextView
+	        android:layout_height="match_parent"
+	        android:layout_width="wrap_content"
+	        android:text="@string/help"
+	        android:textSize="23sp"
+	        android:textColor="#FFFFFF" />
+        <TextView
+	        android:layout_height="match_parent"
+	        android:layout_width="wrap_content"
+	        android:text="@string/help_text"
+	        android:textColor="#FFFFFF" />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/help"
+        android:background="#FFFFFF" />
+    <LinearLayout
+        android:id="@+id/about"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/help"
+        android:onClick="aboutClicked"
+        android:orientation="vertical">    
+        <TextView 
+	        android:layout_height="match_parent"
+	        android:layout_width="wrap_content"
+	        android:text="@string/about"
+	        android:textSize="23sp"
+	        android:textColor="#FFFFFF" />
+        <TextView
+	        android:layout_height="match_parent"
+	        android:layout_width="wrap_content"
+	        android:text="@string/about_text"
+	        android:textColor="#FFFFFF" />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/about"
+        android:background="#FFFFFF" />
+</RelativeLayout>

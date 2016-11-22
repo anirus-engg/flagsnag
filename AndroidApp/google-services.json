@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "887832584056",
+    "firebase_url": "https://animal-quiz-98049.firebaseio.com",
+    "project_id": "animal-quiz-98049",
+    "storage_bucket": "animal-quiz-98049.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887832584056:android:6973fa2369f0a4df",
+        "android_client_info": {
+          "package_name": "com.udaan.zoomania.ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887832584056-f6i60a3hvlmr8nlr3mgpir34mnkvqn7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYgE8V-MO1eNRrj0PqcionAoy4-WgZS4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887832584056:android:0101a6e47c95a4e5",
+        "android_client_info": {
+          "package_name": "com.udaan.flagsnag.ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887832584056-f6i60a3hvlmr8nlr3mgpir34mnkvqn7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYgE8V-MO1eNRrj0PqcionAoy4-WgZS4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

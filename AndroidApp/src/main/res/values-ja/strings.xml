@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">国旗クイズ</string>
+	<string name="description">Flag Snag is a rapid flag matching quiz in which you have to match the maximum possible flags before the timer runs down to zero.</string>
+	<string name="settings">設定</string>
+	<string name="version">4.0</string>
+	<string name="help">手助け</string>
+	<string name="help_text">Help menu for this game.</string>
+	<string name="about">ついて</string>
+	<string name="about_text">Legal details about this game.</string>
+	<string name="blank"/>
+	<string name="flag_table_col_name">Name_JA</string>
+	<string name="help_file_name">help_ja.html</string>
+	<string name="space">\u0020</string>
+	<string name="about_file_name">about.html</string>
+	<string name="score">0</string>
+	<string name="score_text">得点:</string>
+	<string name="times_up">ゲームオーバー</string>
+	<string name="new_game">ニューゲーム</string>
+	<string name="resume">再開する</string>
+	<string name="favorites">Favorites</string>
+	<string name="achievements">Achievements</string>
+	<string name="achievements_text">Checkout your achievements.</string>
+	<string name="facebook_post">\u0020あなたのスコアを投稿</string>
+	<string name="no_facebook">Facebook は到達不可能です。もう一度やり直してください。</string>
+	<string name="facebook_success">首尾Facebookへ投稿しました。</string>
+	<string name="app_id">264279107046585</string>
+	<string name="start">スタート</string>
+	<string name="ok">よし</string>
+	<string name="close">クローズ</string>
+	<string name="world_flags">世界フラッグス</string>
+	<string name="us_flags">米国フラッグス</string>
+	<string name="uk_flags">英国のフラッグス</string>
+	<string name="flags">フラグ カテゴリ</string>
+	<string name="flags_summary">この環境設定を使用すると、フラグのカテゴリを設定することができます</string>
+	<string-array name="category_list">
+		<item>@string/world_flags</item>
+		<item>@string/us_flags</item>
+		<item>@string/uk_flags</item>
+	</string-array>
+	<string-array name="category_code">
+		<item>world</item>
+		<item>us_flags</item>
+		<item>uk_flags</item>
+	</string-array>
+	<string name="english">English</string>
+	<string name="japanese">日本語</string>
+	<string name="russian">русский</string>
+	<string name="korean">한국인</string>
+	<string name="spanish">Español</string>
+	<string name="language">言語</string>
+	<string name="language_summary">この設定ゲームの言語を設定することができます</string>
+	<string-array name="language_list">
+		<item>@string/english</item>
+		<item>@string/japanese</item>
+		<item>@string/korean</item>
+		<item>@string/russian</item>
+		<item>@string/spanish</item>
+	</string-array>
+	<string-array name="language_code">
+		<item>en</item>
+		<item>ja</item>
+		<item>ko</item>
+		<item>ru</item>
+		<item>es</item>
+	</string-array>
+</resources>

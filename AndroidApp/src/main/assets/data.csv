@@ -1,0 +1,326 @@
+﻿Flag,Name,Category,Name_JA,Name_RU,Name_KO,Name_ES
+us,United States,world,アメリカ合衆国,Соединенные Штаты,,Estados Unidos
+in,India,world,インド,Индия,,India
+ca,Canada,world,カナダ,Канада,,Canadá
+au,Australia,world,オーストラリア,Австралия,,Australia
+cn,China,world,中国,Китай,,China
+ru,Russia,world,ロシア,Россия,,Rusia
+br,Brazil,world,ブラジル,Бразилия,,Brasil
+uk,United Kingdom,world,イギリス,Великобритания,,Reino Unido
+pa,Panama,world,パナマ,Панама,,Panamá
+ht,Haiti,world,ハイチ,Гаити,,Haití
+gd,Grenada,world,グレナダ,Гренада,,Granada
+bb,Barbados,world,バルバドス,Барбадос,,Barbados
+gt,Guatemala,world,グアテマラ,Гватемала,,Guatemala
+do1,Dominican Republic,world,ドミニカ共和国,Доминиканская Республика,,República Dominicana
+ni,Nicaragua,world,ニカラグア,Никарагуа,,Nicaragua
+cr,Costa Rica,world,コスタリカ,Коста Рикa,,Costa Rica
+mx,Mexico,world,メキシコ,Мексика,,México
+cu,Cuba,world,キューバ,Куба,,Cuba
+jm,Jamaica,world,ジャマイカ,Ямайка,,Jamaica
+bs,Bahamas,world,バハマ,Багамы,,Bahamas
+ar,Argentina,world,アルゼンチン,Аргентина,,Argentina
+bo,Bolivia,world,ボリビア,Боливия,,Bolivia
+cl,Chile,world,チリ,Чили,,Chile
+co,Columbia,world,コロンビア,Колумбия,,Columbia
+ec,Ecuador,world,エクアドル,Эквадор,,Ecuador
+py,Paraguay,world,パラグアイ,Парагвай,,Paraguay
+pe,Peru,world,ペルー,Перу,,Perú
+uy,Uruguay,world,ウルグアイ,Уругвай,,Uruguay
+ve,Venezuela,world,ベネズエラ,Венесуэла,,Venezuela
+gy,Guyana,world,ガイアナ,Гайана,,Guayana
+sr,Suriname,world,スリナム,Суринам,,Surinam
+bw,Botswana,world,ボツワナ,Ботсвана,,Botswana
+bi,Burundi,world,ブルンジ,Бурунди,,Burundi
+cv,Cape Verde,world,カーボベルデ,Кабо-Верде,,Cabo Verde
+cg,Congo,world,コンゴ,Конго,,Congo
+eg,Egypt,world,エジプト,Египет,,Egipto
+er,Eritrea,world,エリトリア,Эритрея,,Eritrea
+et,Ethiopia,world,エチオピア,Эфиопия,,Etiopía
+gh,Ghana,world,ガーナ,Гана,,Ghana
+ke,Kenya,world,ケニア,Кения,,Kenia
+mw,Malawi,world,マラウイ,Малави,,Malawi
+na,Namibia,world,ナミビア,Намибия,,Namibia
+rw,Rwanda,world,ルワンダ,Руанда,,Ruanda
+sc,Seychelles,world,セイシェル,Сейшельские острова,,Seychelles
+za,South Africa,world,南アフリカ,Южная Африка,,Sudáfrica
+tn,Tunisia,world,チュニジア,Тунис,,Túnez
+ug,Uganda,world,ウガンダ,Уганда,,Uganda
+dz,Algeria,world,アルジェリア,Алжир,,Argelia
+ao,Angola,world,アンゴラ,Ангола,,Angola
+cm,Cameron,world,カメルーン,Камерун,,Cameron
+gq,Equatorial Guinea,world,赤道ギニア,Экваториальная Гвинея,,Guinea Ecuatorial
+mz,Mozambique,world,モザンビーク,Мозамбик,,Mozambique
+ss,South Sudan,world,南スーダン,Судан,,Sudán del Sur
+sd,Sudan,world,スーダン,Судан,,Sudán
+so,Somalia,world,ソマリア,Сомали,,Somalia
+zw,Zimbabwe,world,ジンバブエ,Зимбабве,,Zimbabue
+ma,Morocco,world,モロッコ,Морокко,,Marruecos
+ly,Libya,world,リビア,Либия,,Libia
+af,Afghanistan,world,アフガニスタン,Афганистан,,Afganistán
+az,Azerbaijan,world,アゼルバイジャン,Азербайджан,,Azerbaiyán
+bh,Bahrain,world,バーレーン,Бахрейн,,Bahrein
+bd,Bangladesh,world,バングラデシュ,Бангладеш,,Bangladesh
+bn,Brunei,world,ブルネイ,Бруней,,Brunéi
+kh,Cambodia,world,カンボジア,Камбоджа,,Camboya
+ge,Georgia,world,グルジア,Грузия,,Georgia
+id,Indonesia,world,インドネシア,Индонезия,,Indonesia
+ir,Iran,world,イラン,Иран,,Irán
+iq,Iraq,world,イラク,Ирак,,Irak
+il,Israel,world,イスラエル,Израиль,,Israel
+jp,Japan,world,日本,Япония,,Japón
+jo,Jordan,world,ヨルダン,Иордания,,Jordania
+kw,Kuwait,world,クウェート,Кувейт,,Kuwait
+la,Laos,world,ラオス,Лаос,,Laos
+lb,Lebanon,world,レバノン,Ливан,,Líbano
+my,Malaysia,world,マレーシア,Малайзия,,Malasia
+mn,Mongolia,world,モンゴル,Монголия,,Mongolia
+mm,Burma,world,ミャンマー,Мьянма,,Birmania
+kp,North Korea,world,北朝鮮,Северная Корея,,Corea del Norte
+pk,Pakistan,world,パキスタン,Пакистан,,Pakistán
+sa,Saudi Arabia,world,サウジアラビア,Саудовская Аравия,,Arabia Saudí
+sg,Singapore,world,シンガポール,Сингапур,,Singapur
+kr,South Korea,world,韓国,Южная Корея,,Corea del Sur
+sy,Syria,world,シリア,Сирия,,Siria
+th,Thailand,world,タイ,Таиланд,,Tailandia
+tr,Turkey,world,トルコ,Турция,,Turquía
+ae,United Arab Emirates,world,アラブ首長国連邦,Объединенные Арабские Эмираты,,Emiratos Árabes Unidos
+ag,Antigua and Barbuda,world,アンティグア・バーブーダ,Антигуа и Барбуда,,Antigua y Barbuda
+sv,El Salvador,world,エルサルバドル,Сальвадор,,El Salvador
+tt,Trinidad and Tobago,world,トリニダード・トバゴ,Тринидад и Тобаго,,Trinidad y Tobago
+bz,Belize,world,ベリーズ,Белиз,,Belice
+lk,Sri Lanka,world,スリランカ,Шри Ланка,,Sri Lanka
+al,Albania,world,アルバニア,Албания,,Albania
+ad,Andorra,world,アンドラ,Андорра,,Andorra
+at,Austria,world,オーストリア,Австрия,,Austria
+be,Belgium,world,ベルギー,Бельгия,,Bélgica
+hr,Croatia,world,クロアチア,Хорватия,,Croacia
+cz,Czech Republic,world,チェコ,Чешская Республика,,República Checa
+dk,Denmark,world,デンマーク,Дания,,Dinamarca
+fi,Finland,world,フィンランド,Финляндия,,Finlandia
+fr,France,world,フランス,Франция,,Francia
+de,Germany,world,ドイツ,Германия,,Alemania
+gr,Greece,world,ギリシャ,Греция,,Grecia
+hu,Hungary,world,ハンガリー,Венгрия,,Hungría
+is,Iceland,world,アイスランド,Исландия,,Islandia
+ie,Ireland,world,アイルランド,Ирландия,,Irlanda
+it,Italy,world,イタリア,Италия,,Italia
+lu,Luxembourg,world,ルクセンブルク,Люксембург,,Luxemburgo
+md,Moldova,world,モルドバ,Молдова,,Moldavia
+nl,Netherlands,world,オランダ,Нидерланды,,Países Bajos
+no,Norway,world,ノルウェー,Норвегия,,Noruega
+pl,Poland,world,ポーランド,Польша,,Polonia
+pt,Portugal,world,ポルトガル,Португалия,,Portugal
+ro,Romania,world,ルーマニア,Румыния,,Rumanía
+es,Spain,world,スペイン,Испания,,España
+se,Sweden,world,スウェーデン,Швеция,,Suecia
+ch,Switzerland,world,スイス,Швейцария,,Suiza
+ua,Ukraine,world,ウクライナ,Украина,,Ucrania
+nz,New Zealand,world,ニュージーランド,Новая Зеландия,,Nueva Zelanda
+fj,Fiji,world,フィジー,Фиджи,,Fiji
+mv,Maldives,world,モルディブ,Мальдивы,,Maldivas
+by,Belarus,world,ベラルーシ,Беларусь,,Bielorrusia
+bg,Bulgaria,world,ブルガリア,Болгария,,Bulgaria
+mt,Malta,world,マルタ,Мальта,,Malta
+mk,Macedonia,world,マケドニア,Македония,,Macedonia
+rs,Serbia,world,セルビア,Сербия,,Serbia
+ki,Kiribati,world,キリバス,Кирибати,,Kiribati
+vu,Vanuatu,world,バヌアツ,Вануату,,Vanuatu
+vn,Vietnam,world,ベトナム,Вьетнам,,Vietnam
+ye,Yemen,world,イエメン,Йемен,,Yemen
+sk,Slovakia,world,スロバキア,Словакия,,Eslovaquia
+us,United States,us_flags,アメリカ合衆国,Соединенные Штаты,,Estados Unidos
+us_al,Alabama,us_flags,アラバマ州,,,Alabama
+us_ak,Alaska,us_flags,アラスカ,,,Alaska
+us_az,Arizona,us_flags,アリゾナ,,,Arizona
+us_ar,Arkansas,us_flags,アーカンソー,,,Arkansas
+us_ca,California,us_flags,カリフォルニア,,,California
+us_co,Colorado,us_flags,コロラド,,,Colorado
+us_ct,Connecticut,us_flags,コネチカット,,,Connecticut
+us_de,Delaware,us_flags,デラウェア,,,Delaware
+us_fl,Florida,us_flags,フロリダ,,,Florida
+us_ga,Georgia,us_flags,グルジア,Грузия,,Georgia
+us_hi,Hawaii,us_flags,ハワイ,,,Hawai
+us_id,Idaho,us_flags,アイダホ,,,Idaho
+us_il,Illinois,us_flags,イリノイ,,,Illinois
+us_in,Indiana,us_flags,インディアナ,,,Indiana
+us_ia,Iowa,us_flags,アイオワ,,,Iowa
+us_ks,Kansas,us_flags,カンザス,,,Kansas
+us_ky,Kentucky,us_flags,ケンタッキー,,,Kentucky
+us_la,Louisiana,us_flags,ルイジアナ,,,Louisiana
+us_me,Maine,us_flags,メイン,,,Maine
+us_md,Maryland,us_flags,メリーランド,,,Maryland
+us_ma,Massachusetts,us_flags,マサチューセッツ,,,Massachusetts
+us_mi,Michigan,us_flags,ミシガン,,,Michigan
+us_mn,Minnesota,us_flags,ミネソタ,,,Minnesota
+us_ms,Mississippi,us_flags,ミシシッピー,,,Mississippi
+us_mo,Missouri,us_flags,ミズーリ,,,Missouri
+us_mt,Montana,us_flags,モンタナ,,,Montana
+us_ne,Nebraska,us_flags,ネブラスカ,,,Nebraska
+us_nv,Nevada,us_flags,ネバダ,,,Nevada
+us_nh,New Hampshire,us_flags,ニューハンプシャー,,,Nueva Hampshire
+us_nj,New Jersey,us_flags,ニュージャージー,,,Nueva Jersey
+us_nm,New Mexico,us_flags,ニューメキシコ,,,Nueva México
+us_ny,New York,us_flags,ニューヨーク,,,Nueva York
+us_nc,North Carolina,us_flags,ノースカロライナ,,,Carolina del norte
+us_nd,North Dakota,us_flags,ノースダコタ,,,Dakota del norte
+us_oh,Ohio,us_flags,オハイオ,,,Ohio
+us_ok,Oklahoma,us_flags,オクラホマ,,,Oklahoma
+us_or_1,Oregon (obverse),us_flags,オレゴン (表側),,,Oregon (anverso)
+us_or_2,Oregon (reverse),us_flags,オレゴン (裏面),,,Oregon (revés)
+us_pa,Pennsylvania,us_flags,ペンシルバニア,,,Pensilvania
+us_ri,Rhode Island,us_flags,ロードアイランド,,,Isla de Rhode
+us_sc,South Carolina,us_flags,サウスカロライナ,,,Carolina del Sur
+us_sd,South Dakota,us_flags,サウスダコタ,,,Dakota del Sur
+us_tn,Tennessee,us_flags,テネシー,,,Tennessee
+us_tx,Texas,us_flags,テキサス,,,Texas
+us_ut,Utah,us_flags,ユタ,,,Utah
+us_vt,Vermont,us_flags,バーモント,,,Vermont
+us_va,Virginia,us_flags,バージニア,,,Virginia
+us_wa,Washington,us_flags,ワシントン,,,Washington
+us_wv,West Virginia,us_flags,ウェストバージニア,,,Virginia Occidental
+us_wi,Wisconsin,us_flags,ウィスコンシン,,,Wisconsin
+us_wy,Wyoming,us_flags,ワイオミング,,,Wyoming
+us_as,American Samoa,us_flags,米サモア,,,Samoa Americana
+us_gu,Guam,us_flags,グアム,,,Guam
+us_mp,Northern Mariana Islands,us_flags,北マリアナ諸島,,,Islas Marianas del Norte
+us_pr,Puerto Rico,us_flags,プエルトリコ,,,Puerto Rico
+us_vi,U.S. Virgin Islands,us_flags,アメリカ領ヴァージン諸島,,,Islas Vírgenes de los Estados Unidos
+us_wk,Wake Island,us_flags,ウェーク島,,,Isla Wake
+us_ni,Navassa Island,us_flags,ナヴァッサ島,,,Isla Navassa
+us_dc,District of Columbia,us_flags,コロンビア特別区,,,Distrito de Columbia
+us_am,U.S. Army,us_flags,米陸軍,,,Ejército de EE.UU.
+us_mc,U.S. Marine Corps,us_flags,米海兵隊,,,EE.UU. Cuerpo de Marines
+us_na,U.S. Navy,us_flags,米海軍,,,Armada de los EE.UU.
+us_af,U.S. Air Force,us_flags,米空軍,,,Fuerza Aérea de EE.UU.
+us_cg,U.S. Coastal Guard,us_flags,米国の沿岸警備隊,,,EE.UU. Guardia Costera
+uk,United Kingdom,uk_flags,イギリス,Великобритания,,Reino Unido
+uk_en,England,uk_flags,イングランド,,,Inglaterra
+uk_sc,Scotland,uk_flags,スコットランド,,,Escocia
+uk_ws,Wales,uk_flags,ウェールズ,,,Gales
+uk_buk,Buckinghamshire,uk_flags,バッキンガムシャー,,,Buckinghamshire
+uk_ber,Berkshire,uk_flags,バークシャー,,,Berkshire
+uk_bed,Bedfordshire,uk_flags,ベッドフォードシャー,,,Bedfordshire
+uk_ang,Angus,uk_flags,アンガス,,,Angus
+uk_cor,Cornwall,uk_flags,コーンウォール,,,Cornwall
+uk_cum,Cumbria,uk_flags,カンブリア,,,Cumbria
+uk_der,Derbyshire,uk_flags,ダービーシャー,,,Derbyshire
+uk_dev,Devon,uk_flags,デボン,,,Devon
+uk_cam,Cambridgeshire,uk_flags,ケンブリッジシャー,,,Cambridgeshire
+uk_che,Cheshire,uk_flags,チェシャー,,,Cheshire
+uk_dor,Dorset,uk_flags,ドーセット,,,Dorset
+uk_dur,Durham,uk_flags,ダーラム,,,Durham
+uk_esu,East Sussex,uk_flags,イーストサセックス,,,East Sussex
+uk_sus,Sussex,uk_flags,サセックス,,,Sussex
+uk_glo,Gloucestershire,uk_flags,グロスターシャー,,,Gloucestershire
+uk_man,Greater Manchester,uk_flags,グレーターマンチェスター,,,Greater Manchester
+uk_ham,Hampshire,uk_flags,ハンプシャー,,,Hampshire
+uk_her,Herefordshire,uk_flags,ヘレフォードシャー,,,Herefordshire
+uk_hrt,Hertfordshire,uk_flags,ハートフォードシャー,,,Hertfordshire
+uk_ken,Kent,uk_flags,ケント,,,Kent
+uk_lei,Leicestershire,uk_flags,レスターシャー,,,Leicestershire
+uk_lin,Lincolnshire,uk_flags,リンカンシャー,,,Lincolnshire
+uk_nor,Norfolk,uk_flags,ノーフォーク,,,Norfolk
+uk_nrt,Northamptonshire,uk_flags,ノーサンプトンシャー,,,Northamptonshire
+uk_num,Northumberland,uk_flags,ノーサンバーランド,,,Northumberland
+uk_not,Nottinghamshire,uk_flags,ノッティンガムシャー,,,Nottinghamshire
+uk_ork,Orkney,uk_flags,オークニー,,,Orkney
+uk_oxf,Oxfordshire,uk_flags,オックスフォードシャー,,,Oxfordshire
+uk_pem,Pembrokeshire,uk_flags,ペンブルックシャー,,,Pembrokeshire
+uk_rut,Rutland,uk_flags,ラトランド,,,Rutland
+uk_she,Shetland,uk_flags,シェトランド,,,Shetland
+uk_shr,Shropshire,uk_flags,シュロップシャー,,,Shropshire
+uk_sta,Staffordshire,uk_flags,スタフォードシャー,,,Staffordshire
+uk_suf,Suffolk,uk_flags,サフォーク,,,Suffolk
+uk_sur,Surrey,uk_flags,サリー,,,Surrey
+uk_war,Warwickshire,uk_flags,ウォリックシャー,,,Warwickshire
+uk_wmd,West Midlands,uk_flags,ウェスト·ミッドランズ,,,West Midlands
+uk_wsu,West Sussex,uk_flags,ウエストサセックス,,,West Sussex
+uk_wit,Wiltshire,uk_flags,ウィルトシャー,,,Wiltshire
+uk_wor,Worcestershire,uk_flags,ウースターシャー,,,Worcestershire
+uk_ala,Anguilla,uk_flags,アンギラ,Ангуилла,,Anguilla
+uk_asi,Ascension Island,uk_flags,アセンション島,Остров Вознесения,,Isla de la Ascensión
+uk_bmd,Bermuda,uk_flags,バミューダ諸島,Бермуды,,Bermuda
+uk_bat,British Antarctic Territory,uk_flags,イギリス領南極地域,,,Territorio Antártico Británico
+uk_bio,British Indian Ocean Territory,uk_flags,イギリス領インド洋地域,,,Territorio Británico del Océano Indico
+uk_bvi,British Virgin Islands,uk_flags,イギリス領ヴァージン諸島,,,Islas Vírgenes Británicas
+uk_cay,Cayman Islands,uk_flags,ケイマン諸島,Каймановы острова,,Islas Caimán
+uk_fai,Falkland Islands,uk_flags,フォークランド諸島,,,Islas Malvinas
+uk_gib,Gibraltar,uk_flags,ジブラルタル,Гибралтар,,Gibraltar
+uk_mon,Montserrat,uk_flags,モントセラト,Монтсеррат,,Montserrat
+uk_pit,Pitcairn Islands,uk_flags, ピトケアン諸島,Питкэрн острова,,Islas Pitcairn
+uk_sth,Saint Helena,uk_flags,セントヘレナ,,,Santa Helena
+uk_tci,Turks and Caicos Islands,uk_flags,タークスおよびカイコス諸島,,,Islas Turcas y Caicos
+uk_nvy,Royal Navy,uk_flags,イギリス海軍,,,Armada Real
+uk_arm,British Army,uk_flags,イギリス陸軍,,,Ejército Británico
+uk_raf,Royal Air Force,uk_flags,イギリス空軍,,,Fuerza Aérea Real
+uk_mod,Ministry of Defence,uk_flags,国防省,,,Ministerio de Defensa
+uk_imn,Isle of Man,uk_flags,マン島,,,Isla de Man
+uk_gue,Guernsey,uk_flags,ガーンジー,,,Guernsey
+uk_jer,Jersey,uk_flags,ジャージー,Джерси,,Jersey
+uk_tdc,Tristan da Cunha,uk_flags,トリスタン·ダ·クーニャ,Тристан-да-Кунья,,Tristán da Cunha
+uk_ssi,South Sandwich Islands,uk_flags,南サンドイッチ諸島,,,Islas Sandwich del Sur
+dm,Dominica,world,ドミニカ,Доминика,,Dominica
+hn,Honduras,world,ホンジュラス,Гондурас,,Honduras
+kn,St. Kitts and Nevis,world,セントクリストファー・ネイビス,Сент Киттс и Невис,,San Kitts y Nevis
+lc,Saint Lucia,world,セントルシア,Санта Лючия,,Santa Lucía
+vc,St. Vincent and the Grenadines,world,セントビンセントおよびグレナディーン諸島,Сент Винсент и Гренадины,,San Vicente y las Granadinas
+mh,Marshall Islands,world,マーシャル諸島,Маршальские острова,,Islas Marshall
+fm,Micronesia,world,ミクロネシア,Микронезия,,Micronesia
+nr,Nauru,world,ナウル,Науру,,Nauru
+pw,Palau,world,パラオ,Палау,,Palaos
+pg,Papua New Guinea,world,パプアニューギニア,Папуа Новая Гвинея,,Papúa Nueva Guniea
+ws,Samoa,world,西サモア,Самоа,,Samoa
+sb,Solomon Islands,world,ソロモン諸島,Соломоновы острова,,Islas Salomón
+to,Tonga,world,トンガ,Тонга,,Tonga
+tv,Tuvalu,world,ツバル,Тувалу,,Tuvalu
+bj,Benin,world,ベナン,Бенин,,Benín
+bf,Burkina Faso,world,ブルキナファソ,Буркина Фасо,,Burkina Faso
+cf,Central African Republic,world,中央アフリカ共和国,Центрально Африканская Республика,,República Centroafricana
+td,Chad,world,チャド,Чад,,Chad
+km,Comoros,world,コモロ,Коморос,,Comoras
+ci,Ivory Coast,world,象牙海岸,Берег Слоновой Кости,,Costa de Marfil
+cd,Democratic Congo,world,民主党のコンゴ,Демократическая Конго,,Democrática del Congo
+dj,Djibouti,world,ジブチ,Джибути,,Yibuti
+ga,Gabon,world,ガボン,Габон,,Gabón
+gm,The Gambia,world,ガンビア,Гамбия,,Los Gambia
+gn,Guinea,world,ギニア,Гвинея,,Guinea
+gw,Guinea-Bissau,world,ギニアビサウ,Гвинея-Бисау,,Guinea-Bisáu
+ls,Lesotho,world,レソト,Лесото,,Lesoto
+lr,Liberia,world,リベリア,Либерия,,Liberia
+mg,Madagascar,world,マダガスカル,Мадагаскар,,Madagascar
+ml,Mali,world,マリ,Мали,,Mali
+mr,Mauritania,world,モーリタニア,Мавритания,,Mauritania
+mu,Mauritius,world,モーリシャス,Мавритий,,Mauricio
+ne,Niger,world,ニジェール,Нигер,,Níger
+ng,Nigeria,world,ナイジェリア,Нигерия,,Nigeria
+st,Sao Tome and Principe,world,サントメ・プリンシペ,Сан Томе и Принсипи,,Sao Tomé y Príncipe
+sl,Sierra Leone,world,シエラレオネ,Сьерра Леоне,,Sierra Leona
+sz,Swaziland,world,スワジランド,Свазиленд,,Swazilandia
+tz,Tanzania,world,タンザニア,Танзания,,Tanzania
+tg,Togo,world,トーゴ,Того,,Togo
+zm,Zambia,world,ザンビア,Замбия,,Zambia
+am,Armenia,world,アルメニア,Армения,,Armenia
+bt,Bhutan,world,ブータン,Бутан,,Bhutan
+cy,Cyprus,world,キプロス,Кипр,,Chipre
+tl,East Timor,world,東ティモール,Восточный Тимор,,Timor del Este
+kz,Kazakhstan,world,カザフスタン,Казахстан,,Kazajstán
+kg,Kyrgyzstan,world,キルギスタン,Киргизия,,Kirguizistán
+np,Nepal,world,ネパール,Непал,,Nepal
+om,Oman,world,オマーン,Оман,,Omán
+ps,Palestine,world,パレスチナ,Палестина,,Palestina
+ph,Philippines,world,フィリピン,Филиппины,,Filipinas
+qa,Qatar,world,カタール,Катар,,Katar
+tj,Tajikistan,world,タジキスタン,Таджикистан,,Tayikistán
+tm,Turkmenistan,world,トルクメニスタン,Туркменистан,,Turkmenistán
+uz,Uzbekistan,world,ウズベキスタン,Узбекистан,,Uzbekistán
+ba,Bosnia and Herzegovina,world,ボスニア・ヘルツェゴビナ,Босния и Герцеговина,,Bosnia y Herzegovina
+ee,Estonia,world,エストニア,Эстония,,Estonia
+lv,Latvia,world,ラトビア,Латвия,,Letonia
+li,Liechtenstein,world,リヒテンシュタイン,Лихтейнштейн,,Liechtenstein
+lt,Lithuania,world,リトアニア,Литва,,Lituania
+mc,Monaco,world,モナコ,Монако,,Mónaco
+me,Montenegro,world,モンテネグロ,Черногория,,Montenegro
+sm,San Marino,world,サンマリノ,Сан Марино,,San Marino
+si,Slovenia,world,スロベニア,Словения,,Eslovenia
+va,Vatican City,world,ヴァティカン市国,Ватикан,,Ciudad del Vaticano
