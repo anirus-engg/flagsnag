@@ -21,7 +21,7 @@ public class SettingsActivity extends Activity {
             super.onCreate(savedInstanceState);
 
             // Load the preferences from an XML resource
-            addPreferencesFromResource(R.layout.activity_settings);
+            addPreferencesFromResource(R.xml.activity_settings);
         }
 	}
 }

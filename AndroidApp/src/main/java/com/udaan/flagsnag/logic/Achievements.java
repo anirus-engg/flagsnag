@@ -23,7 +23,7 @@ public class Achievements {
 	}
 
 	public boolean isAchieved(int row) {
-		return data[row][4].equals("0") ? false : true;
+		return !data[row][4].equals("0");
 	}
 
 	public String getMedal(int row) {

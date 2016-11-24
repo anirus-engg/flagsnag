@@ -15,7 +15,7 @@
 	<string name="about_file_name">about.html</string>
 	<string name="score">0</string>
 	<string name="score_text">Score:</string>
-	<string name="times_up">Game Over</string>
+	<string name="times_up">Times Up.  Disable timer to learn.</string>
 	<string name="new_game">New Game</string>
 	<string name="resume">Resume</string>
 	<string name="favorites">Favorites</string>
@@ -64,4 +64,7 @@
 		<item>ru</item>
 		<item>es</item>
 	</string-array>
+	<string name="enable_timer">Enable Timer</string>
+	<string name="enable_timer_summary">This preference allows you to enable/disable the timer. Achievements will not be available</string>
+	<string name="game_complete">Well Done, you have identified all of them.  Enable timer for achievements.</string>
 </resources>

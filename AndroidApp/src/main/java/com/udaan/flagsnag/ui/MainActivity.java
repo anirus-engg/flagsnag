@@ -57,7 +57,7 @@ public class MainActivity extends Activity {
 	private static final int MAX_CHOICE = 4;
 	private static final String MY_AD_UNIT_ID = "ca-app-pub-8996795250788622/8832979093";
 	private static final List<String> PERMISSIONS = Arrays.asList("publish_actions");
-	//private static final String PENDING_PUBLISH_KEY = "pendingPublishReauthorization";
+    private static final String BLANK_TIMER = "      ";
 	private static String sTimer = "3:00.0";
 	private static int gameTime = 180000;
 	
@@ -80,6 +80,7 @@ public class MainActivity extends Activity {
 	private CountDownTimerPausable countDown;
 	private boolean settingsClicked;
 	private boolean showResumeAlert = false;
+    private boolean showTimer = true;
 	private String longCategory = null;
 	private Locale currentLocale = null;
 	private String playStoreLink = "http://www.amazon.com/gp/product/B00D3TTLXC";
@@ -156,21 +157,24 @@ public class MainActivity extends Activity {
 		
 		prefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
     	String category = prefs.getString("category", "world");
-    	if (category.equals("world")) {
-    		sTimer = "3:00.0";
-    		gameTime = 180000;
-    		longCategory = getString(R.string.world_flags);
-    	}
-    	else if (category.equals("us_flags")){
-    		sTimer = "1:00.0";
-    		gameTime = 60000;
-    		longCategory = getString(R.string.us_flags);
-    	}
-    	else if (category.equals("uk_flags")){
-    		sTimer = "1:00.0";
-    		gameTime = 60000;
-    		longCategory = getString(R.string.uk_flags);
-    	}
+        showTimer = prefs.getBoolean("enable_timer", true);
+        switch (category) {
+            case "world":
+                sTimer = "3:00.0";
+                gameTime = 180000;
+                longCategory = getString(R.string.world_flags);
+                break;
+            case "us_flags":
+                sTimer = "1:00.0";
+                gameTime = 60000;
+                longCategory = getString(R.string.us_flags);
+                break;
+            case "uk_flags":
+                sTimer = "1:00.0";
+                gameTime = 60000;
+                longCategory = getString(R.string.uk_flags);
+                break;
+        }
     	
     	String languageCode = prefs.getString("language", "en");
         switch (languageCode) {
@@ -268,8 +272,13 @@ public class MainActivity extends Activity {
 			}
     		
     	};
-    	
-		countDown.start();
+
+        if(showTimer) {
+            countDown.start();
+        }
+        else {
+            timer.setText(BLANK_TIMER);
+        }
 		loadBoard();
 	}
 	
@@ -316,6 +325,29 @@ public class MainActivity extends Activity {
 		});
 		alertConfirm.show();
 	}
+
+    public void alertGameComplete() {
+        Log.d(getClass().toString(), "alertGameComplete");
+        showResumeAlert = false;
+        board.close();
+
+        /*Achievements achievement = new Achievements(this);
+        achievement.setAchievement(longCategory, continuousScoreAchieved > continuousScore ? continuousScoreAchieved : continuousScore, this);
+        achievement.close();*/
+
+        AlertDialog.Builder alertConfirm = new AlertDialog.Builder(this);
+        LayoutInflater inflater = this.getLayoutInflater();
+        alertConfirm.setTitle(R.string.game_complete);
+        alertConfirm.setView(inflater.inflate(R.layout.alert_gamecomplete, null));
+        alertConfirm.setCancelable(false);
+        alertConfirm.setNeutralButton(getResources().getString(R.string.close), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                alertNewGame();
+            }
+        });
+        alertConfirm.show();
+    }
 	
 	public void alertResume() {
 		showResumeAlert = false;
@@ -328,7 +360,12 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
 				showResumeAlert = true;
-				countDown.start();
+                if(showTimer) {
+                    countDown.start();
+                }
+                else {
+                    timer.setText(BLANK_TIMER);
+                }
 			}
 		});
 		alertConfirm.show();
@@ -383,7 +420,12 @@ public class MainActivity extends Activity {
 	private void isMatched(int index) {
 		score++;
 		continuousScore++;
-		if(board.removeFlag(index)) loadBoard();
+        if(board.removeFlag(index)) {
+            loadBoard();
+        }
+        else {
+            alertGameComplete();
+        }
 	}
 	
 	private CharSequence formatTime(long millisUntilFinished) {

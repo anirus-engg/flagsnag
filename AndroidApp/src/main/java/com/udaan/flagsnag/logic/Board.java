@@ -80,6 +80,10 @@ public class Board {
 	public boolean removeFlag(int index) {
 		Log.d(getClass().toString(), "Removing flag index: " + data[randInt[index]][0] + " randInt:" + randInt[index]);
 		Log.d(getClass().toString(), "Removed:" + list.remove(index));
+        Log.d(getClass().toString(), "Remaining:" + list.size());
+        if (list.size() <= 3) {
+            return false;
+        }
 		Collections.shuffle(list);
 		return true;
 	}
