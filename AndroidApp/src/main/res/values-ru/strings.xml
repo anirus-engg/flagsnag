@@ -64,4 +64,7 @@
 		<item>ru</item>
 		<item>es</item>
 	</string-array>
+	<string name="enable_timer">Включить таймер</string>
+	<string name="enable_timer_summary">Этот параметр позволяет включить или выключить таймер. Достижения не будут доступны.</string>
+	<string name="game_complete">Молодцы, вы определили все из них.  Включите таймер для достижения.</string>
 </resources>

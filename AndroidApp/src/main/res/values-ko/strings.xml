@@ -64,4 +64,7 @@
 		<item>ru</item>
 		<item>es</item>
 	</string-array>
+	<string name="enable_timer">타이머 사용</string>
+	<string name="enable_timer_summary">이 기본 설정을 활성화/비활성화 타이머 수 있습니다. 성과 사용할 수 없습니다.</string>
+	<string name="game_complete">잘 했 어, 당신은 그들 모두 확인 했습니다.  성과 대 한 타이머를 사용 합니다.</string>
 </resources>

@@ -37,16 +37,6 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 
-import com.facebook.FacebookRequestError;
-import com.facebook.HttpMethod;
-import com.facebook.Request;
-import com.facebook.RequestAsyncTask;
-import com.facebook.Response;
-import com.facebook.Session;
-import com.facebook.Session.NewPermissionsRequest;
-import com.facebook.SessionState;
-import com.facebook.model.GraphUser;
-
 import com.udaan.flagsnag.logic.Board;
 import com.udaan.flagsnag.logic.CountDownTimerPausable;
 import com.udaan.flagsnag.logic.Translations;
@@ -439,97 +429,9 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		super.onActivityResult(requestCode, resultCode, data);
-		Session.getActiveSession().onActivityResult(this, requestCode, resultCode, data);
+		//Session.getActiveSession().onActivityResult(this, requestCode, resultCode, data);
 	}
-	
-	public void connectFacebook(View v) {
-		// start Facebook Login
-		Session.openActiveSession(this, true, new Session.StatusCallback() {
 
-			// callback when session changes state
-		    @Override
-		    public void call(Session session, SessionState state, Exception exception) {
-		    	Log.d(getClass().toString(), "Connecting to facebook");
-		    	if (session.isOpened()) {
-		    		Log.d(getClass().toString(), "Facebook session opened");
-		    		
-		    		// make request to the /me API
-		    		Request.executeMeRequestAsync(session, new Request.GraphUserCallback() {
-		    		
-		    			// callback after Graph API response with user object
-		    			@Override
-		    			public void onCompleted(GraphUser user, Response response) {
-		    				if (user != null) {
-			    				Log.d(getClass().toString(), user.getFirstName() + " has logged in");
-			    				postFacebook(user);
-		    				}
-		    				else {
-		    					Toast.makeText(getApplicationContext(), getString(R.string.no_facebook), Toast.LENGTH_SHORT)
-									.show();
-		    				}
-		    			}
-		    		});
-		    	}
-		    }
-		});
-	}
-	
-	private void postFacebook(GraphUser user) {
-		Session currentSession = Session.getActiveSession();
-		
-		if (currentSession != null) {
-			if (!pendingPublishReauthorization) {
-				List<String> permissions = currentSession.getPermissions();
-				if (!isSubsetOf(PERMISSIONS, permissions)) {
-					pendingPublishReauthorization = true;
-					Session.NewPermissionsRequest mPermissionsRequest = new NewPermissionsRequest(this, PERMISSIONS);
-					currentSession.requestNewPublishPermissions(mPermissionsRequest);
-					return;
-				}
-			}
-			
-			Bundle postParams = new Bundle();
-			Log.d(getClass().toString(), Translations.scorePost(score, longCategory, currentLocale));
-			postParams.putString("name", Translations.scorePost(score, longCategory, currentLocale));
-	        postParams.putString("caption", null);
-	        postParams.putString("description", getString(R.string.description));
-	        postParams.putString("link", playStoreLink);
-	        postParams.putString("picture", "https://lh4.ggpht.com/IC3xNsBIDBztLBmGuwrw1yAYlG-fSXu-ImFEIZc-Yg4XwhdYNTJYUuDesy9w4xIjXDCe=w124");
-
-	
-			Request.Callback mCallback = new Request.Callback() {
-				
-				@Override
-				public void onCompleted(Response response) {
-					Log.d(getClass().toString(), response.getGraphObject().toString());
-					
-					JSONObject graphResponse = response.getGraphObject().getInnerJSONObject();
-					
-					String postId = null;
-					try {
-						postId = graphResponse.getString("id");
-					}
-					catch (JSONException je) {
-						Log.e(getClass().toString(), je.getMessage());
-					}
-					
-					FacebookRequestError mError = response.getError();
-					if (mError != null) {
-						Toast.makeText(getApplicationContext(), mError.getErrorMessage(), Toast.LENGTH_SHORT)
-							.show();
-					}
-					else {
-						Toast.makeText(getApplicationContext(), getString(R.string.facebook_success), Toast.LENGTH_SHORT)
-							.show();
-					}
-				}
-			};
-			Request mRequest = new Request(currentSession, "me/feed", postParams, HttpMethod.POST, mCallback);
-			RequestAsyncTask task = new RequestAsyncTask(mRequest);
-	        task.execute();
-		}
-	}
-	
 	private boolean isSubsetOf(List<String> subset, List<String> superset) {
 		for (String string : subset) {
 		     if (!superset.contains(string)) {

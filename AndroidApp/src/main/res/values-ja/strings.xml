@@ -64,4 +64,7 @@
 		<item>ru</item>
 		<item>es</item>
 	</string-array>
+	<string name="enable_timer">タイマーを有効にします。</string>
+	<string name="enable_timer_summary">この設定では、タイマーを有効/無効にすることができます。成果は使用できなくなります</string>
+	<string name="game_complete">よくやった、すべてのそれらを識別しました。 成果のタイマーを有効にします。</string>
 </resources>

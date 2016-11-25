@@ -64,4 +64,7 @@
 		<item>ru</item>
 		<item>es</item>
 	</string-array>
+	<string name="enable_timer">Activar temporizador</string>
+	<string name="enable_timer_summary">Esta preferencia permite activar/desactivar al temporizador. Logros no estará disponibles.</string>
+	<string name="game_complete">Bien hecho, se han identificado todos ellos.  Activar el temporizador para los logros.</string>
 </resources>
