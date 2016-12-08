@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidApp/AndroidApp.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidApp/AndroidApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flagsnag.iml" filepath="$PROJECT_DIR$/.idea/modules/flagsnag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidApp/AndroidApp.iml" filepath="$PROJECT_DIR$/AndroidApp/AndroidApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flagsnag.iml" filepath="$PROJECT_DIR$/flagsnag.iml" />
     </modules>
   </component>
 </project>
